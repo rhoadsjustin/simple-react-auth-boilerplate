@@ -2,11 +2,12 @@ import firebase from 'firebase';
 
 // Provided by the Firebase console
 const config = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_DATABASE_URL,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID
+      apiKey: "AIzaSyBH4yPRwG797ZixX8cRKP2LyrFknpRGUcw",
+      authDomain: "simple-react-auth.firebaseapp.com",
+      databaseURL: "https://simple-react-auth.firebaseio.com",
+      projectId: "simple-react-auth",
+      storageBucket: "",
+      messagingSenderId: "865887545456"
 };
 
 // Firebase instance
